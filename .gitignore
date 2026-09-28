@@ -1,0 +1,56 @@
+
+# Dependencies
+node_modules/
+
+# Environment variables (secrets!)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build output
+dist/
+build/
+public/css/output.css
+
+# Tailwind (if you ever use the CLI or PostCSS build)
+.tailwindcss/
+
+# OS files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Editor / IDE
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.sublime-workspace
+*.sublime-project
+
+# Runtime / cache
+.cache/
+.npm/
+tmp/
+temp/
+
+# Debug
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage / test output
+coverage/
+.nyc_output/
+
+# Misc
+_notes/
