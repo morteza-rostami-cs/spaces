@@ -47,4 +47,26 @@ cd /var/www
 mkdir spaces
 cd spaces
 
+# clone git repo
+git clone https://github.com/morteza-rostami-cs/spaces.git .
+
+run npm i
+
+# create a .env file
+# copy env stuff manually
+
+
+
+####
+
+# how to setup vps key on remote server
+
+# add local ssh key to remote
+ssh-copy-id -i ~/.ssh/vps_server.pub root@213.176.7.243
+
+ssh -i ~/.ssh/vps_server root@213.176.7.243
+
+####
+
+
 ```
