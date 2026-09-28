@@ -54,3 +54,5 @@ coverage/
 
 # Misc
 _notes/
+
+data/*.db

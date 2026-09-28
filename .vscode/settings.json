@@ -2,5 +2,6 @@
   "djlint.showInstallError": false,
   "editor.quickSuggestions": {
     "strings": "on"
-  }
+  },
+  "cSpell.ignoreWords": ["rootname"]
 }
